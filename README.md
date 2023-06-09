@@ -12,5 +12,7 @@ sudo apt install git
 git clone git@github.com:regularsteven/sunset.git
 
 sudo -H apt install python3-picamera
+sudo -H apt install sched
+sudo -H apt install time
 
 sudo apt-get install imagemagick -y
