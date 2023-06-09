@@ -2,4 +2,5 @@ from picamera import PiCamera
 
 camera = PiCamera()
 
-camera.capture('image.jpg')
+for i in range(10):
+    camera.capture('image{0:04d}.jpg'.format(i))
