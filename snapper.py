@@ -1,3 +1,4 @@
+ #!/usr/bin/env python3
 import sched, time
 from datetime import datetime
 
@@ -14,7 +15,7 @@ def capture_image(scheduler):
     now = datetime.now()
 
     current_time = now.strftime("%Y_%m_%d_%H_%M_%S")
-    camera.capture('../lpa/image_'+current_time+'.jpg'.format(i))
+    camera.capture('../lpa/image_'+current_time+'.jpg')
     print("taking photo " + 'image_'+current_time+'.jpg')
     # then do your stuff
 
