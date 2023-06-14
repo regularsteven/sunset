@@ -16,3 +16,12 @@ sudo -H apt install sched
 sudo -H apt install time
 
 sudo apt-get install imagemagick -y
+
+
+
+# running 
+ssh steven@sunset.local
+cd /home/steven/sunset/
+nohup python3 ~/sunset/snapper.py &
+ps -ef | grep python3
+kill task 
